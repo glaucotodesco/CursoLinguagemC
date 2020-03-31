@@ -49,7 +49,7 @@ int main()
 						}
 						else
 						{
-							printf("Obesidade Grau III")
+							printf("Obesidade Grau III");
 						}
 					}
 				}
@@ -57,7 +57,7 @@ int main()
 		}
 	}
 	else{
-		printf("Peso deve ser positivo!";)
+		printf("Peso deve ser positivo!");
 	}
 	
 	
