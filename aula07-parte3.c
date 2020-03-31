@@ -11,3 +11,65 @@
    De 40,0 em diante Obesidade Grau III (mórbida) 
    
 */
+
+#include <stdio.h>
+
+int main()
+{
+	float peso, altura, imc;
+	
+	printf("Digite o seu peso: ");
+	scanf("%f", &peso);
+	
+	printf("Digite a sua altura: ");
+	scanf("%f", &altura);
+	
+	imc = peso / (altura * altura);
+	
+	if(peso > 0)
+	{
+		if(peso < 18.5){
+			printf("Abaixo do peso");
+		}
+		else{
+			if(peso < 25){
+				printf("Saudavel");
+			}
+			else{
+				if(peso < 30){
+					printf("Sobrepeso");
+				}
+				else{
+					if(peso < 35){
+						printf("Obsidade Grau I");
+					}
+					else{
+						if(peso < 40){
+							printf("Obsidade Grau II");
+						}
+						else
+						{
+							printf("Obesidade Grau III")
+						}
+					}
+				}
+			}
+		}
+	}
+	else{
+		printf("Peso deve ser positivo!";)
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
