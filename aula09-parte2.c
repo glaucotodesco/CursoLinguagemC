@@ -16,7 +16,7 @@ int main(){
 	}
 	
 	media = soma / TAM;
-	printf("\nA media dos numero digitados e = %.2f",media);
+	printf("\nA media dos numeros digitados e = %.2f",media);
 	
 	return 0;
 	
